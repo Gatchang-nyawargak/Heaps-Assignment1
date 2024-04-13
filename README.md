@@ -20,7 +20,10 @@ Space Efficiency: Heaps require less memory compared to other data structures, s
 Disadvantages of Heaps:
 
 Lack of Flexibility: Heaps are not very flexible as they are designed to maintain a specific order of elements. This makes them less suitable for applications requiring more flexible data structures.
+
 Not Ideal for Searching: While efficient for accessing the top element, heaps are not ideal for searching for a specific element. Searching requires traversing the entire tree, which has a time complexity of O(n).
+
 Not a Stable Data Structure: The heap data structure does not preserve the relative order of equal elements when the heap is constructed or modified.
+
 Complexity in Memory Management: Heaps require dynamic memory allocation, which can be challenging in systems with limited memory. Managing the memory allocated to the heap can also be complex and error-prone.
 
